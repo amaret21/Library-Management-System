@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Library" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.example.library_backend.LibraryBackendApplication" />
+    <module name="library_backend" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

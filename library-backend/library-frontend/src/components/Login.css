@@ -1,0 +1,151 @@
+.login-container {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	padding: 20px;
+}
+
+.login-card {
+	background: white;
+	padding: 40px;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	max-width: 400px;
+}
+
+.login-header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.login-header h1 {
+	color: #2c3e50;
+	margin-bottom: 10px;
+}
+
+.login-header p {
+	color: #7f8c8d;
+	margin: 0;
+}
+
+.login-form {
+	margin-bottom: 30px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	display: block;
+	margin-bottom: 5px;
+	color: #2c3e50;
+	font-weight: 500;
+}
+
+.form-group input {
+	width: 100%;
+	padding: 12px;
+	border: 2px solid #ecf0f1;
+	border-radius: 6px;
+	font-size: 16px;
+	transition: border-color 0.3s;
+	box-sizing: border-box;
+}
+
+.form-group input:focus {
+	outline: none;
+	border-color: #3498db;
+}
+
+.login-button {
+	width: 100%;
+	padding: 12px;
+	background: linear-gradient(135deg, #3498db, #2980b9);
+	color: white;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.login-button:hover:not(:disabled) {
+	transform: translateY(-2px);
+	box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+}
+
+.login-button:disabled {
+	background: #bdc3c7;
+	cursor: not-allowed;
+}
+
+.error-message {
+	background-color: #e74c3c;
+	color: white;
+	padding: 12px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.demo-section {
+	border-top: 1px solid #ecf0f1;
+	padding-top: 20px;
+}
+
+.demo-section h3 {
+	text-align: center;
+	color: #2c3e50;
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+.demo-buttons {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 15px;
+}
+
+.demo-button {
+	flex: 1;
+	padding: 8px;
+	border: 2px solid #3498db;
+	background: white;
+	color: #3498db;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 12px;
+	transition: all 0.3s;
+}
+
+.demo-button:hover {
+	background: #3498db;
+	color: white;
+}
+
+.demo-button.admin {
+	border-color: #e74c3c;
+	color: #e74c3c;
+}
+
+.demo-button.admin:hover {
+	background: #e74c3c;
+	color: white;
+}
+
+.demo-credentials {
+	background: #f8f9fa;
+	padding: 15px;
+	border-radius: 6px;
+	font-size: 12px;
+	color: #2c3e50;
+}
+
+.demo-credentials div {
+	margin-bottom: 5px;
+}
